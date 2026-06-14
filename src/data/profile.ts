@@ -1,4 +1,4 @@
-// Edit this file to update your portfolio content.
+// Edit this file to update portfolio content.
 // Add/remove projects, skills, certifications, focus areas, and links here.
 // Keep credentialUrl empty unless you have the real credential URL.
 
@@ -56,7 +56,7 @@ export type Education = {
 
 export const profile = {
   name: 'Leela Mani Sankar Peerukattla',
-  displayName: 'Leela ManiSankar P',
+  displayName: 'Leela Mani Sankar Peerukattla',
   initials: 'LMSP',
   role: 'Software Engineer',
   location: 'United States',
@@ -68,7 +68,7 @@ export const profile = {
   summary:
     'I’m a software engineer focused on Java, Spring Boot, Python, React, TypeScript, REST APIs, microservices, distributed systems, cloud delivery, and AI-assisted product workflows. I enjoy turning unclear product needs into reliable backend services, clean APIs, and maintainable full-stack applications.',
   openTo:
-    'Open to Software Engineer, Backend Engineer, Full-Stack Engineer, API Integration Developer, Platform Engineer, and AI Product Engineering roles.',
+    'Open to Software Engineer, Backend Engineer, Full-Stack Engineer, Platform Engineer, and AI Product Engineering roles.',
   lastUpdated: 'June 2026',
   links: {
     github: 'https://github.com/leelamanisankarpeerukattla',
