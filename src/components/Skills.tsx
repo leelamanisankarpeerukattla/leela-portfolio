@@ -9,8 +9,8 @@ export default function Skills() {
     <Section
       id="skills"
       eyebrow="Skills"
-      title="Technology stack grouped for fast scanning"
-      description="Top skills are visually emphasized while the full skill set stays organized by engineering area."
+      title="Technology stack"
+      description="A clear overview of the technologies I use to build reliable applications, backend systems, and AI-enabled product features."
     >
       <div className="glass-card mb-6 rounded-[2rem] p-6">
         <div className="mb-4 flex items-center gap-3">
