@@ -48,9 +48,9 @@ export default function Hero() {
             <Link href={profile.links.linkedin} className="secondary-button" target="_blank" rel="noreferrer">
               <LinkedInIcon className="h-[17px] w-[17px]" /> LinkedIn
             </Link>
-            <Link href={profile.links.email} className="secondary-button">
-              <Mail size={17} aria-hidden="true" /> Email Me
-            </Link>
+            <a href={profile.links.email} className="secondary-button">
+              <Mail size={17} aria-hidden="true" /> {profile.email}
+            </a>
           </div>
         </motion.div>
 

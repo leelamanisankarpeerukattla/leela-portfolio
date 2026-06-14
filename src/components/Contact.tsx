@@ -25,9 +25,6 @@ export default function Contact() {
               I’m open to software engineering opportunities where I can contribute to backend systems, full-stack product workflows, APIs, cloud-ready services, and practical AI-enabled applications.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <Link href={profile.links.email} className="primary-button">
-                <Mail size={17} aria-hidden="true" /> Email Me
-              </Link>
               <Link href={profile.links.linkedin} className="secondary-button" target="_blank" rel="noreferrer">
                 <LinkedInIcon className="h-[17px] w-[17px]" /> LinkedIn
               </Link>
