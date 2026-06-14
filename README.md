@@ -1,21 +1,95 @@
-# Leela Mani Sankar Peerukattla - Portfolio Website
+# Leela Mani Sankar Peerukattla — Software Engineer Portfolio
 
-A complete, responsive, recruiter-friendly software engineer portfolio built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Lucide React**.
+This is my personal software engineering portfolio, built to present my experience, technical skills, featured projects, certifications, education, and contact information in a clean, recruiter-friendly format.
 
-The project is intentionally simple to edit: nearly all major content is stored in one file: `src/data/profile.ts`.
+The portfolio is designed for hiring managers, recruiters, and engineering teams who want a quick but detailed view of my work across full-stack development, backend systems, cloud-ready applications, database-backed workflows, and AI-assisted software engineering.
 
-## Tech stack
+## Portfolio Focus
 
-- Next.js 14 with App Router
-- TypeScript
-- Tailwind CSS
-- Framer Motion for subtle section animations
-- Lucide React icons
-- Static export friendly configuration
-- Dark mode by default with light mode support
-- SEO metadata, Open Graph metadata, `robots.ts`, `sitemap.ts`, and JSON-LD
+This portfolio highlights my background in:
 
-## Run locally
+* Full-stack application development
+* Backend APIs and service-layer design
+* Enterprise and marketplace application workflows
+* Cloud-ready software architecture
+* Database-backed systems
+* AI-assisted product development and automation
+* Testing, CI/CD, documentation, and production-style delivery
+
+## Tech Stack
+
+The portfolio is built using modern frontend and deployment tools:
+
+* Next.js 14 with App Router
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+* SEO metadata
+* Open Graph metadata
+* JSON-LD structured data
+* Sitemap and robots configuration
+* Dark mode with light mode support
+* Vercel-ready deployment setup
+
+## Featured Sections
+
+The website includes:
+
+* Hero introduction with professional headline
+* About section
+* Technical skills
+* Work experience
+* Featured projects
+* Certifications
+* Education
+* Current focus areas
+* Resume download
+* Contact links
+* GitHub and LinkedIn links
+
+## Featured Projects
+
+The portfolio showcases selected projects that demonstrate practical engineering ability, including:
+
+* Enterprise full-stack order management platform
+* Distributed API rate limiter and protection service
+* AI-enabled marketplace workflows
+* Software engineering simulation work
+* Personal portfolio system
+
+Private or nonprofit-related work is clearly marked as a case study available on request instead of using fake repository links.
+
+## Resume
+
+A resume PDF is included in the portfolio and linked through the website.
+
+The portfolio uses a general resume suitable for broad software engineering roles. For specific job applications, I may use a tailored version of my resume based on the role requirements.
+
+## Project Structure
+
+Most portfolio content is centralized in:
+
+```txt
+src/data/profile.ts
+```
+
+This makes the website easy to maintain and update. The profile file controls:
+
+* Name and headline
+* Summary and about content
+* Skills
+* Experience
+* Projects
+* Certifications
+* Education
+* Resume link
+* SEO title and description
+* Social links
+
+## Running Locally
+
+To run the project locally:
 
 ```bash
 npm install
@@ -30,130 +104,51 @@ http://localhost:3000
 
 ## Build
 
+To build the project:
+
 ```bash
 npm run build
+```
+
+To start the production build:
+
+```bash
 npm run start
 ```
 
-## How to edit your portfolio
+## Deployment
 
-Most profile content lives here:
+The portfolio is optimized for deployment on Vercel.
 
-```txt
-src/data/profile.ts
+Deployment steps:
+
+1. Push the project to GitHub.
+2. Import the repository into Vercel.
+3. Select the Next.js framework preset.
+4. Use the default build command:
+
+```bash
+npm run build
 ```
 
-Edit that file to change:
+5. Deploy the site.
 
-- Name and headline
-- Email, GitHub, LinkedIn, and resume links
-- Hero copy and open-to text
-- About section
-- Project cards and GitHub links
-- Experience bullets
-- Skills and top skill highlights
-- Certifications and credential links
-- Education
-- Current focus cards
-- SEO title, description, keywords, and site URL
+## SEO and Accessibility
 
-## Replace your resume
+The portfolio includes:
 
-A valid placeholder PDF is included at:
+* Responsive design for desktop, tablet, and mobile
+* Keyboard-friendly navigation
+* SEO metadata
+* Open Graph metadata for social sharing
+* Sitemap and robots configuration
+* JSON-LD structured data
+* Subtle animations with reduced-motion support
 
-```txt
-public/resume.pdf
-```
+## Design Approach
 
-Replace it with your latest resume and keep the same filename:
+The design is intentionally clean, modern, and focused on readability. The goal is to help recruiters and engineering teams quickly understand my background, technical strengths, project work, and contact information without unnecessary distractions.
 
-```txt
-resume.pdf
-```
+## Contact
 
-The portfolio buttons already point to:
-
-```txt
-/resume.pdf
-```
-
-## Add credential links
-
-In `src/data/profile.ts`, each certification has:
-
-```ts
-credentialUrl: ""
-```
-
-Paste the real credential URL when you have it. If the field is empty, the UI shows “Credential available on request” instead of a fake link.
-
-## Update project links
-
-Public projects include real GitHub URLs. The private marketplace project is intentionally marked as:
-
-```txt
-Case Study Available on Request
-```
-
-Do not add a fake repository link for private work.
-
-## Change colors
-
-Primary styling is handled in:
-
-```txt
-src/app/globals.css
-tailwind.config.ts
-```
-
-Common accent classes use cyan, blue, and violet Tailwind utilities. Search for classes such as:
-
-```txt
-text-cyan-300
-from-cyan-500
-to-violet-500
-border-white/10
-```
-
-## Deploy to Vercel
-
-1. Push this folder to GitHub.
-2. Import the project in Vercel.
-3. Framework preset: **Next.js**.
-4. Build command: `npm run build`.
-5. Deploy.
-
-Vercel is the easiest option for this project.
-
-## Deploy to Netlify
-
-1. Push this folder to GitHub.
-2. Import the project in Netlify.
-3. Build command: `npm run build`.
-4. Use the Netlify Next.js integration or adapter settings recommended by Netlify.
-
-## Deploy to Render
-
-1. Push this folder to GitHub.
-2. Create a new Web Service in Render.
-3. Build command: `npm install && npm run build`.
-4. Start command: `npm run start`.
-
-## Deploy to GitHub Pages
-
-1. In `next.config.mjs`, enable the commented static export options: `output: 'export'` and `trailingSlash: true`.
-2. Run `npm run build`.
-3. Publish the generated `out/` directory using GitHub Pages or a GitHub Action.
-4. If hosting under a repository path such as `/leela-portfolio`, also add `basePath` and `assetPrefix` before deploying.
-
-## SEO setup
-
-Update the `siteUrl` field in `src/data/profile.ts` before production deployment. This value is used for sitemap, Open Graph metadata, and JSON-LD.
-
-## Quality notes
-
-- The site avoids fake metrics, fake credential links, and fake private project URLs.
-- The private project is clearly marked as private.
-- The content is centralized for easy editing.
-- The design is responsive and supports keyboard navigation.
-- Motion is subtle and respects reduced-motion settings.
+For opportunities, collaboration, or additional project details, please connect through the portfolio contact section, LinkedIn, GitHub, or email.
