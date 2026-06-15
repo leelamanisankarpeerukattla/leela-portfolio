@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useReducedMotion } from 'framer-motion';
-import { Download, Mail, MapPin, Sparkles } from 'lucide-react';
+import { Download, Mail, MapPin } from 'lucide-react';
 import { GitHubIcon, LinkedInIcon } from './BrandIcons';
 import Link from 'next/link';
 import { profile } from '@/data/profile';

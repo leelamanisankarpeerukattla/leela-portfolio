@@ -1,4 +1,4 @@
-import { CheckCircle2, Cloud, Code2, Cpu, Server, ShieldCheck, Zap } from 'lucide-react';
+import { Cloud, Code2, Cpu, Server, ShieldCheck, Zap } from 'lucide-react';
 import Section from './Section';
 
 const principles = [
