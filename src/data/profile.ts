@@ -67,8 +67,6 @@ export const profile = {
     'Software Engineer | Intelligent Applications, REST APIs & Cloud Engineering | Java, Python, Spring Boot, React, TypeScript | AWS, GCP, Kubernetes, Docker, CI/CD | OpenAI API, AI Agents, RAG, LLM Workflows',
   summary:
     'I’m a software engineer focused on Java, Spring Boot, Python, React, TypeScript, REST APIs, microservices, distributed systems, cloud delivery, and AI-assisted product workflows. I enjoy turning unclear product needs into reliable backend services, clean APIs, and maintainable full-stack applications.',
-  openTo:
-    'Open to Software Engineer, Backend Engineer, Full-Stack Engineer, Platform Engineer, and AI Product Engineering roles.',
   lastUpdated: 'June 2026',
   links: {
     github: 'https://github.com/leelamanisankarpeerukattla',
@@ -123,11 +121,7 @@ export const profile = {
     'AI Agents',
     'RAG'
   ],
-  about: [
-    'I’m a software engineer with experience building backend-focused full-stack systems, enterprise APIs, event-driven services, and cloud-ready applications. My background includes Java, Spring Boot, Python, React, TypeScript, PostgreSQL, Redis, Kafka, Docker, Kubernetes, GCP, AWS, CI/CD, and practical AI/LLM workflows.',
-    'I have worked on enterprise software at Infosys for Walmart/Sam’s Club platform work, and I currently contribute as a Software Engineer with Community Dreams Foundation, where I support product workflows, API-driven features, and AI-assisted engineering work.',
-    'I like building systems that are reliable, readable, testable, and useful for real users.'
-  ],
+  about: [],
   projects: [
     {
       title: 'Enterprise Full-Stack Order Management System',

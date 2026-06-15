@@ -22,8 +22,8 @@ export default function Projects() {
     <Section
       id="projects"
       eyebrow="Featured Projects"
-      title="Project work that shows backend depth, product thinking, and deployable engineering"
-      description="Each project is written as a concise case study so recruiters and hiring managers can scan the problem, implementation, stack, and engineering value quickly."
+      title="Practical software projects"
+      description="Selected projects that show how I build reliable, useful, and deployable software."
     >
       <div className="mb-6 flex flex-wrap gap-2">
         {categories.map((item) => (
