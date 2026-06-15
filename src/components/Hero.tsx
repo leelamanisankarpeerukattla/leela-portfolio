@@ -35,9 +35,9 @@ export default function Hero() {
             <Link href="#projects" className="primary-button">
               View Projects
             </Link>
-            <Link href={profile.links.resume} className="secondary-button">
+            {/* <Link href={profile.links.resume} className="secondary-button">
               <Download size={17} aria-hidden="true" /> Download Resume
-            </Link>
+            </Link> */}
             <Link href={profile.links.github} className="secondary-button" target="_blank" rel="noreferrer">
               <GitHubIcon className="h-[17px] w-[17px]" /> GitHub
             </Link>
