@@ -5,11 +5,9 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const commands = [
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Certifications', href: '#certifications' },
+  { label: 'Work', href: '#projects' },
+  { label: 'Background', href: '#timeline' },
+  { label: 'Technologies', href: '#technologies' },
   { label: 'Contact', href: '#contact' }
 ];
 

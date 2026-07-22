@@ -1,6 +1,6 @@
 # Leela Mani Sankar Peerukattla — Software Engineer Portfolio
 
-This is my personal software engineering portfolio, built to present my experience, technical skills, featured projects, certifications, education, and contact information in a clean, recruiter-friendly format.
+This is my personal software engineering portfolio, built to present my experience, technical skills, featured projects, background, and contact information in a clean, recruiter-friendly format.
 
 The portfolio is designed for hiring managers, recruiters, and engineering teams who want a quick but detailed view of my work across full-stack development, backend systems, cloud-ready applications, database-backed workflows, and AI-assisted software engineering.
 
@@ -37,16 +37,12 @@ The portfolio is built using modern frontend and deployment tools:
 The website includes:
 
 * Hero introduction with professional headline
-* About section
-* Technical skills
-* Work experience
 * Featured projects
-* Certifications
-* Education
-* Current focus areas
-* Resume download
+* Engineering background timeline
+* Core technologies
+* Optional engineering proof section
 * Contact links
-* GitHub and LinkedIn links
+* Minimal header and footer navigation
 
 ## Featured Projects
 
@@ -55,16 +51,14 @@ The portfolio showcases selected projects that demonstrate practical engineering
 * Enterprise full-stack order management platform
 * Distributed API rate limiter and protection service
 * AI-enabled marketplace workflows
-* Software engineering simulation work
-* Personal portfolio system
 
 Private or nonprofit-related work is clearly marked as a case study available on request instead of using fake repository links.
 
-## Resume
+## Portfolio Approach
 
-A resume PDF is included in the portfolio and linked through the website.
+This portfolio is intentionally structured as a recruiter-friendly engineering narrative rather than a downloadable PDF resume.
 
-The portfolio uses a general resume suitable for broad software engineering roles. For specific job applications, I may use a tailored version of my resume based on the role requirements.
+The content is designed to be easy to update and to highlight the most relevant engineering work, background, and technical depth for the roles I am targeting.
 
 ## Project Structure
 
@@ -83,7 +77,6 @@ This makes the website easy to maintain and update. The profile file controls:
 * Projects
 * Certifications
 * Education
-* Resume link
 * SEO title and description
 * Social links
 

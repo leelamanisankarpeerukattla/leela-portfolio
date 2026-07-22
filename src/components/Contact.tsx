@@ -1,6 +1,6 @@
 'use client';
 
-import { Check, Download, Mail } from 'lucide-react';
+import { Check, Mail } from 'lucide-react';
 import { GitHubIcon, LinkedInIcon } from './BrandIcons';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -19,20 +19,20 @@ export default function Contact() {
   return (
     <Section id="contact" eyebrow="Contact" title="Let’s talk about software engineering opportunities">
       <div className="glass-card overflow-hidden rounded-[2rem] p-6 sm:p-8">
-        <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-center">
+        <div className="grid gap-6 lg:grid-cols-[1fr_0.8fr] lg:items-center">
           <div>
             <p className="max-w-2xl text-lg leading-8 text-slate-700 dark:text-slate-300">
-              I’m open to software engineering opportunities where I can contribute to backend systems, full-stack product workflows, APIs, cloud-ready services, and practical AI-enabled applications.
+              Interested in backend, platform, distributed systems, cloud, and AI product engineering opportunities.
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
+            <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
+              Reach out to discuss software engineering roles, technical projects, or engineering collaboration.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
               <Link href={profile.links.linkedin} className="secondary-button" target="_blank" rel="noreferrer">
                 <LinkedInIcon className="h-[17px] w-[17px]" /> LinkedIn
               </Link>
               <Link href={profile.links.github} className="secondary-button" target="_blank" rel="noreferrer">
                 <GitHubIcon className="h-[17px] w-[17px]" /> GitHub
-              </Link>
-              <Link href={profile.links.resume} className="secondary-button">
-                <Download size={17} aria-hidden="true" /> Download Resume
               </Link>
             </div>
           </div>

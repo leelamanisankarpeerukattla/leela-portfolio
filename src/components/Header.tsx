@@ -1,6 +1,6 @@
 'use client';
 
-import { Download, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 import { profile } from '@/data/profile';
@@ -8,11 +8,9 @@ import { cn } from '@/lib/utils';
 import ThemeToggle from './ThemeToggle';
 
 const navItems = [
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Certifications', href: '#certifications' },
+  { label: 'Work', href: '#projects' },
+  { label: 'Background', href: '#timeline' },
+  { label: 'Technologies', href: '#technologies' },
   { label: 'Contact', href: '#contact' }
 ];
 
@@ -44,9 +42,6 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-2">
-          <Link href={profile.links.resume} className="secondary-button hidden px-4 py-2 lg:inline-flex">
-            <Download size={16} aria-hidden="true" /> Resume
-          </Link>
           <ThemeToggle />
           <button
             type="button"
@@ -79,13 +74,6 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
-          <Link
-            href={profile.links.resume}
-            onClick={() => setOpen(false)}
-            className="mt-1 inline-flex items-center gap-2 rounded-2xl px-4 py-3 text-sm font-semibold text-cyan-700 transition hover:bg-cyan-50 focus:outline-none focus:ring-2 focus:ring-cyan-400 dark:text-cyan-200 dark:hover:bg-cyan-300/10"
-          >
-            <Download size={16} aria-hidden="true" /> Download Resume
-          </Link>
         </div>
       </div>
     </header>

@@ -14,14 +14,7 @@ export default function Education() {
             <h3 className="text-xl font-bold text-slate-950 dark:text-white">{education.school}</h3>
             <p className="mt-2 font-semibold text-cyan-700 dark:text-cyan-200">{education.degree}</p>
             <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">{education.dates}</p>
-            {education.gpa ? <p className="mt-2 text-sm font-semibold text-slate-700 dark:text-slate-200">GPA: {education.gpa}</p> : null}
-            <div className="mt-5 flex flex-wrap gap-2">
-              {education.relevantAreas.map((area) => (
-                <span key={area} className="chip">
-                  {area}
-                </span>
-              ))}
-            </div>
+            <p className="mt-4 text-sm leading-6 text-slate-600 dark:text-slate-300">{education.description}</p>
           </article>
         ))}
       </div>
