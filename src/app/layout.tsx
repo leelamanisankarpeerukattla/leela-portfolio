@@ -64,7 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       email: profile.email,
       url: siteUrl,
       sameAs: [profile.links.github, profile.links.linkedin],
-      knowsAbout: profile.topSkills
+      knowsAbout: profile.coreTechnologies
     }
   };
 

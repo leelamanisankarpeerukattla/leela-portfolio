@@ -1,14 +1,19 @@
 import { Brain, Cloud, Code2, Server } from 'lucide-react';
-import { profile } from '@/data/profile';
 import Section from './Section';
 
+const items = [
+  { title: 'Backend systems', details: 'Java, Spring Boot, REST APIs, distributed services' },
+  { title: 'Cloud-native delivery', details: 'Docker, Kubernetes, CI/CD, AWS, GCP' },
+  { title: 'Practical AI', details: 'OpenAI API, LLM workflows, validation, and human oversight' },
+  { title: 'Engineering depth', details: 'System design, observability, reliability, and maintainability' }
+];
 const icons = [Server, Cloud, Brain, Code2];
 
 export default function CurrentFocus() {
   return (
     <Section id="current-focus" eyebrow="Current Focus" title="Currently focused on">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {profile.currentFocus.map((item, index) => {
+        {items.map((item, index) => {
           const Icon = icons[index] ?? Code2;
           return (
             <article key={item.title} className="glass-card rounded-3xl p-5 transition hover:-translate-y-1 hover:border-cyan-300/60 dark:hover:border-cyan-300/30">
